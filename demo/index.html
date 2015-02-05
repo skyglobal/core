@@ -1,22 +1,15 @@
 <!DOCTYPE html>
-<!--To put correct ie classes on document root to essentially enable css conditionals-->
-<!--[if IE 7]>         <html class="lt-ie10 lt-ie9 lt-ie8" > <![endif]-->
-<!--[if IE 8]>         <html class="lt-ie10 lt-ie9" > <![endif]-->
-<!--[if IE 9]>         <html class="lt-ie10" > <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en" > <!--<![endif]-->
-<!--end css conditionals-->
+<html>
 <head lang="en">
-    <meta charset="UTF-8"/>
-    <title>core</title>
-
+    <meta charset="UTF-8">
+    <title>Sky Colours</title>
+    <link rel="stylesheet" href="styles/typography.css"/>
     <link rel="stylesheet" href="styles/demo.css"/>
-    <link rel="stylesheet" href="styles/core.css"/>
-    <script type="text/javascript" src="scripts/core.js"></script>
 </head>
 <body>
-
 <div class="skycom-container">
-    <h1>core
+
+    <h1>Core
         <small  class="demo-version text--secondary">v{{ site.version }}
             <a href="https://github.com/skyglobal/core" class="text--secondary">
                 <span class="demo-icon demo-icon--github"  aria-hidden=true></span>
@@ -24,9 +17,93 @@
             </a></small>
     </h1>
 
-<p>
-    Demo component here!
+    <h2 id="typography">Typography    </h2>
+
+    <p>
+        Only a single <code>Page Title</code> can exist on a page at one time. All other titles can be used multiple times.
+    </p>
+    <p>
+        When mixing <code>SkyTextMedium</code> and <code>skyTextRegular</code> weights, <code>Medium</code> should always come first.
 </p>
+    <h1 class="page-title">
+        Page Title (Sky Text Regular <span class="demo-pink">52px</span> <small class="demo-mobile-size">32px*</small> )
+        <br/><span class="inactive">Line-height 56px  <small class="demo-mobile-size">36px*</small></span>
+    </h1>
+
+    <h2 class="section-title">Section Title (Sky Text Regular <span class="demo-pink">44px</span> <small class="demo-mobile-size">28px*</small>)
+        <br/><span class="inactive">Line-height 48px  <small class="demo-mobile-size">32px*</small></span>
+    </h2>
+    <h2 class="section-title smaller">Smaller Section Title (<span class="medium">Sky Text Medium</span> / Regular <span class="demo-pink">36px</span> <small class="demo-mobile-size">28px*</small>)
+        <br/><span class="inactive">Line-height 40px <small class="demo-mobile-size">32px*</small></span>
+    </h2>
+
+    <h3 class="pod-title">Pod Title (<span class="medium">Sky Text Medium</span> / Regular <span class="demo-pink">32px</span> <small class="demo-mobile-size">28px*</small>)
+        <br/><span class="inactive">Line-height 36px <small class="demo-mobile-size">32px*</small></span>
+    </h3>
+    <h3 class="pod-title smaller">Smaller Pod Title (<span class="medium">Sky Text Medium</span> / Regular <span class="demo-pink">28px</span> <small class="demo-mobile-size">24px*</small>)
+        <br/><span class="inactive">Line-height 32px <small class="demo-mobile-size">28px*</small></span>
+    </h3>
+
+    <p class="intro">Intro Copy (<span class="medium">Sky Text Medium</span> / Regular <span class="demo-pink">24px</span> <small class="demo-mobile-size">20px*</small>)
+        <br/><span class="inactive">Line-height 28px <small class="demo-mobile-size">24px*</small></span>
+    </p>
+
+    <p class="intro smaller">Smaller Intro Copy (<span class="medium">Sky Text Medium</span> / Regular <span class="demo-pink">20px</span>)
+        <br/><span class="inactive">Line-height 24px</span>
+    </p>
+
+    <p>Body text (<span class="medium">Sky Text Medium</span> / Regular <span class="demo-pink">16px</span>)
+        <br/><span class="inactive">Line-height 20px</span>
+    </p>
+
+    <p class="text--instructions">Instructional copy (Luna <span class="demo-pink">24px</span>)
+        <br/><span class="inactive">Line-height 40px</span>
+    </p>
+
+    <small class="demo-block text--legal">Legal copy</small>
+
+    <p class="text--error">Error</p>
+    <p class="text--secondary">Secondary</p>
+    <p class="text--inactive">Inactive</p>
+
+    <strong>'Strong' tags go to medium automatically</strong>
+    <small class="demo-block">'Small' text (relative to container)</small>
+
+    <p>
+        <a class="link--internal" href="#">Link to a different location (same page)</a>
+    </p>
+    <p >
+        <a href="#" ><i class="skycon skycon--chevron"></i>Link to a different page (with a chevron)</a>
+    </p>
+
+    <div class="demo-smash-img text--white">
+        <p >Text on dark background is white</p>
+        <a href="#" ><i class="skycon-chevron"></i>Links next to normal text need chevrons</a>
+    </div>
+
+    <div class="demo-beckham-img text--black">
+        <p >Text on light background is black</p>
+        <a href="#" ><i class="skycon-chevron"></i>Links next to normal text need chevrons</a>
+    </div>
+
+
+    <ul class="list list--grey">
+        <li>List with grey bullet points</li>
+        <li>List with grey bullet points</li>
+        <li>List with grey bullet points</li>
+    </ul>
+
+    <ol class="list">
+        <li>Ordered list item</li>
+        <li>Ordered list item</li>
+        <li>Ordered list item</li>
+    </ol>
+
+
+    <h2>Colours    </h2>
+
+    <p>
+        For accessibility reasons, please also note the colour of the text being used.
+    </p>
+
 </div>
-
-

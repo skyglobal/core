@@ -1,0 +1,36 @@
+
+//your demo specific scss here
+.demo-hex{
+  text-align: left;
+  margin-bottom:10px;
+}
+.demo-mobile-size{
+  color: #5cacb6;
+}
+.text--inactive .demo-mobile-size{
+  color: #A9C7CA;
+}
+.demo-pink{
+  color: $colour-v3-pink;
+}
+
+.demo-smash-img {
+  background-image: url("../images/smash.jpg");
+  padding: 15px;
+  margin-bottom: 10px;
+  background-size: 100%;
+  width: 50%;
+  p{
+    margin: 0;
+  }
+}
+.demo-beckham-img {
+  background-image: url("../images/beckham.jpg");
+  padding: 15px;
+  margin-bottom: 10px;
+  background-size: 100%;
+  width: 50%;
+  p{
+    margin: 0;
+  }
+}
