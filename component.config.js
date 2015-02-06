@@ -14,7 +14,7 @@ module.exports = {
         accessKey: process.env.AWS_ACCESS_KEY_ID,
         secret: process.env.AWS_SECRET_ACCESS_KEY,
         region: process.env.AWS_REGION,
-        directoryPrefix: 'components/'
+        directoryPrefix: 'components/' //prefix your target release destination
     },
     test: 'karma', //or mocha
     testConfig: { // where your tests config, specs and reports are saved
