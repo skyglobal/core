@@ -19,13 +19,11 @@ or alternatively, **Via Bower**
  * Include Sass: `@import 'bower_components/bskyb-core/src/styles/core';`
  * Include JS: `var core = require('../../bower_components/bskyb-core/src/scripts/core');`
 
-#### Developer Notes
-
-Core includes :
- * [colours](demo/_includes/1-colours)
- * [typography](demo/_includes/2-typography/index.html),
- * [events](demo/_includes/3-event/),
- * [detection](demo/_includes/4-detect/),
+#### Core Components Included
+ * [Brand Colours](demo/_includes/1-colours)
+ * [Typography + Fonts](demo/_includes/2-typography/index.html)
+ * [Cross-Browser Events (non-jquery)](demo/_includes/3-event/)
+ * [Browser Capability Detection](demo/_includes/4-detect/)
 
 ## Contribution
 
