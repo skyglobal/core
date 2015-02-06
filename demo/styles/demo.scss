@@ -1,10 +1,15 @@
-@import 'bower_components/bskyb-typography/src/scss/typography';
-@import 'bower_components/bskyb-grid/src/scss/grid';
-@import "src/styles/colours";
-@import "colours";
-@import "typography";
+@import "modules/colours";
+@import "modules/typography";
 
 /* Common demo Sass here */
+
+.demo-container {
+  width: 94.059%;
+  max-width: 1140px;
+  margin: 0 auto;
+  clear: left;
+  overflow: visible; }
+
 .demo-updated {
   display: block;
   font-size: 0.3em;

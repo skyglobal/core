@@ -1,0 +1,25 @@
+
+<div class="demo-container">
+    <h2 id="live">Live</h2>
+
+    <code>event.live(events, selector, eventHandler);</code>
+
+    <div>
+        <p>You can JS events on elements that have been added to the page after the JS has been loaded.</p>
+        <p> <a href="#" class="demo-live">Click here to trigger the 'live' event</a>
+            <span id="demo-live-result"></span></p>
+    </div>
+
+    <script>
+        var elLiveResult = document.getElementById('demo-live-result');
+
+        function update(){
+            var span = document.createElement('div');
+            span.classList.add('demo-live');
+            span.innerHTML = 'New element, click me!';
+            elLiveResult.appendChild(span);
+        }
+
+        skyComponents.event.live('click','.demo-live', update);
+    </script>
+</div>

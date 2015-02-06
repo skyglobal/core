@@ -1,0 +1,26 @@
+
+<div class="demo-container">
+    <h2>CSS</h2>
+    <div>
+        <p>You can detect many css style capabilities, including:</p>
+        <ul class="list list--grey">
+            <li>transition: <strong id="css-demo-transition" ></strong>, with property <strong id="css-demo-return-transform"></strong></li>
+            <li>transform:  <strong id="css-demo-transform" ></strong> </li>
+            <li>translate3d: <strong id="css-demo-support3D" ></strong></li>
+            <li>etc...</li>
+        </ul>
+    </div>
+    <script>
+        var detect = skyComponents.detect;
+        var demoTransition = document.getElementById('css-demo-transition');
+        var demo3D = document.getElementById('css-demo-support3D');
+        var demoTransform = document.getElementById('css-demo-transform');
+        var returnTransform = document.getElementById('css-demo-return-transform');
+
+        demoTransition.innerHTML = detect.css('transition');
+        demo3D.innerHTML = detect.css('translate3d');
+        demoTransform.innerHTML = detect.css('transform');
+
+        returnTransform.innerHTML = detect.css(demoTransition, 'transition');
+    </script>
+</div>

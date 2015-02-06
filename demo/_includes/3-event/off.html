@@ -1,0 +1,28 @@
+
+<div class="demo-container">
+    <h2 id="off">Off</h2>
+
+    <code>event.off(el, event, fn);</code>
+
+    <div>
+        <p>You can turn off events that were previously applied using the <code>on</code> method above.</p>
+        <p><a id="css-demo-event-off" href="#"> clicking here will disabled the 'on' link below</a>
+        </p>
+    </div>
+
+    <ul class="list list--grey">
+        <li><code>el</code> : can be a node or nodeList</li>
+        <li><code>event</code> : can be an event-name or list of events (separated by spaces)</li>
+        <li><code>fn</code> : function to be removed when event is triggered</li>
+    </ul>
+
+    <script>
+        var elOff = document.getElementById('css-demo-event-off');
+
+        skyComponents.event.on(elOff,'click', updateEventOff);
+
+        function updateEventOff(){
+            skyComponents.event.off(document.getElementById('css-demo-event-on'), 'click', window.updateEventOn);
+        }
+    </script>
+</div>

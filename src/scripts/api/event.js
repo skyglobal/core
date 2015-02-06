@@ -1,4 +1,4 @@
-var utils = require('./utils');
+var utils = require('../utils/event-helpers');
 var timeout = { resize: null };
 
 function bindEvents() {

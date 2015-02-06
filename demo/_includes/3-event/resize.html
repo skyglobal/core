@@ -1,0 +1,21 @@
+<div class="demo-container">
+    <h2 id="resizeend">Resize-end</h2>
+    <code>event.on(window, 'resizeend', fn);</code>
+
+    <div>
+        <p>You can know the moment (200ms) a user has finished resizing the browser</p>
+        <p class="medium">
+            <span id="css-demo-event-resizeend">not re-sized.</span>
+        </p>
+    </div>
+
+    <script>
+        var elResizeEnd = document.getElementById('css-demo-event-resizeend');
+
+        function updateEventResizeEnd(){
+            elResizeEnd.innerHTML = 'boom. resized.';
+        }
+
+        skyComponents.event.on(window,'resizeend',updateEventResizeEnd);
+    </script>
+</div>

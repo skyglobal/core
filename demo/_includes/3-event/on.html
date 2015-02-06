@@ -1,0 +1,29 @@
+
+<div class="demo-container">
+    <h2 id="on">On</h2>
+
+    <code>event.on(el, event, fn);</code>
+
+    <div>
+        <p>You can listen for standard and custom (non-jQuery) JS events</p>
+        <p class="">
+            <a id="css-demo-event-on" href="#"> This hasn't been clicked. click here to update</a>
+        </p>
+    </div>
+
+    <ul class="list list--grey">
+        <li><code>el</code> : can be a node or nodeList</li>
+        <li><code>event</code> : can be an event-name or list of events (separated by spaces)</li>
+        <li><code>fn</code> : function to be called when event is triggered</li>
+    </ul>
+
+    <script>
+        var elOn = document.getElementById('css-demo-event-on');
+
+        window.updateEventOn = function(){
+            elOn.innerHTML = 'This has been clicked already.';
+        };
+
+        skyComponents.event.on(elOn,'click',window.updateEventOn);
+    </script>
+</div>

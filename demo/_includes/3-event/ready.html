@@ -1,0 +1,18 @@
+
+<div class="demo-container">
+    <h2 id="ready">Ready</h2>
+    <code>event.ready(fn);</code>
+
+    <div>
+        <p>You can detect when the document has finished loading everything except images:</p>
+        <p><span id="css-demo-event-ready" class="medium">Document is loading...</span></p>
+    </div>
+
+    <script>
+        function updateEventReady(){
+            document.getElementById('css-demo-event-ready').innerHTML = 'Document has finished loading.';
+        }
+
+        skyComponents.event.ready(updateEventReady);
+    </script>
+</div>
