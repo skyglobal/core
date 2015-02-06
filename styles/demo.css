@@ -1,0 +1,152 @@
+.demo-colour-block {
+  float: left;
+  width: 150px;
+  margin-right: 3.158%; }
+  .demo-colour-block .cushioned {
+    display: block;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 12%; }
+  .demo-colour-block .demo-sky-1 {
+    background-color: #0076be; }
+  .demo-colour-block .demo-sky-atlantic {
+    background-color: #003663; }
+  .demo-colour-block .demo-sky-arts {
+    background-color: #734993; }
+  .demo-colour-block .demo-sky-living {
+    background-color: #87a0af; }
+  .demo-colour-block .demo-sky-movies {
+    background-color: #a51d4d; }
+  .demo-colour-block .demo-v3-red {
+    background-color: #ed1c24; }
+  .demo-colour-block .demo-v3-pink {
+    background-color: #ed0677; }
+  .demo-colour-block .demo-v3-yellow {
+    background-color: #fdb913; }
+  .demo-colour-block .demo-v3-green {
+    background-color: #a6ce39; }
+  .demo-colour-block .demo-v3-blue {
+    background-color: #00aeef; }
+  .demo-colour-block .demo-sports {
+    background-color: #d92027; }
+  .demo-colour-block .demo-original {
+    background-color: #f05423; }
+  .demo-colour-block .demo-variety {
+    background-color: #7d9d33; }
+  .demo-colour-block .demo-family {
+    background-color: #2b93d1; }
+  .demo-colour-block .demo-movies {
+    background-color: #b11d55; }
+  .demo-colour-block .demo-primary {
+    color: #333333; }
+  .demo-colour-block .demo-secondary {
+    color: #666666; }
+  .demo-colour-block .demo-inactive {
+    color: #999999; }
+  .demo-colour-block .demo-error {
+    color: #D21717; }
+  .demo-colour-block .demo-link {
+    color: #0070a5; }
+  .demo-colour-block .demo-primary-button {
+    background-color: #0073c5; }
+  .demo-colour-block .demo-secondary-button {
+    background-color: #eaeaea; }
+  .demo-colour-block .demo-success-icon {
+    background-color: #6dbb00; }
+  .demo-colour-block .demo-sky-go {
+    background-color: #44ad3a; }
+  .demo-colour-block .demo-remote-record {
+    background-color: #ed1c24; }
+  .demo-colour-block .demo-never-miss {
+    background-color: #0077ae; }
+  .demo-colour-block .demo-background-dark {
+    background-color: #eaeaea; }
+  .demo-colour-block .demo-background-light {
+    background-color: #f4f4f4; }
+  .demo-colour-block .demo-key-line {
+    background-color: #dcdcdc; }
+
+.demo-hex {
+  margin-bottom: 10px; }
+
+.demo-hex {
+  text-align: left;
+  margin-bottom: 10px; }
+
+.demo-mobile-size {
+  color: #5cacb6; }
+
+.text--inactive .demo-mobile-size {
+  color: #A9C7CA; }
+
+.demo-pink {
+  color: #ed0677; }
+
+.demo-smash-img {
+  background-image: url("../../images/smash.jpg");
+  padding: 15px;
+  margin-bottom: 10px;
+  background-size: 100%;
+  width: 50%; }
+  .demo-smash-img p {
+    margin: 0; }
+
+.demo-beckham-img {
+  background-image: url("../../images/beckham.jpg");
+  padding: 15px;
+  margin-bottom: 10px;
+  background-size: 100%;
+  width: 50%; }
+  .demo-beckham-img p {
+    margin: 0; }
+
+/* Common demo Sass here */
+.demo-container {
+  width: 94.059%;
+  max-width: 1140px;
+  margin: 0 auto;
+  clear: left;
+  overflow: visible; }
+
+.demo-updated {
+  display: block;
+  font-size: 0.3em; }
+
+.demo-block {
+  display: block;
+  clear: both; }
+
+.demo-version {
+  font-size: 0.5em; }
+
+.demo-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px; }
+
+.demo-icon--github {
+  background: url(../images/GitHub-Mark-32px.png) no-repeat 0px 0px;
+  background-size: 100%; }
+
+.speak {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip: rect(1px 1px 1px 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  display: block; }
+
+code {
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px; }
