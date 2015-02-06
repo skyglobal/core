@@ -1,4 +1,4 @@
-var local; local['core'] = require('./core');
+var local = {}; local['core'] = require('./core');
 
 if (typeof window.define === "function" && window.define.amd) {
     define('bower_components/bskyb-core/dist/js/core.requirejs', [], function() {
