@@ -1,7 +1,7 @@
 [core](http://skyglobal.github.io/core/)  [![Circle CI](https://circleci.com/gh/skyglobal/core/tree/master.svg?style=svg)](https://circleci.com/gh/skyglobal/core/tree/master)
 ========================
 
-> Please take a look at the [demo page](http://skyglobal.github.io/core/)
+> `Core` are essential assets and utils used for all other components and sites. [Demo page](http://skyglobal.github.io/core/)
 
 
 ## Quick-Start
@@ -19,18 +19,13 @@ or alternatively, **Via Bower**
  * Include Sass: `@import 'bower_components/bskyb-core/src/styles/core';`
  * Include JS: `var core = require('../../bower_components/bskyb-core/src/scripts/core');`
 
-
-#### Dependencies
-
-This component relies on other components and you must also include these in your project.
-
- * [Dependency Name](https://github.com/skyglobal/DependencyName)
-
 #### Developer Notes
 
-Choose a type of core component and copy the relevant html.
- * [example](demo/_includes/example.html)
- * [example](demo/_includes/example.html),
+Core includes :
+ * [colours](demo/_includes/1-colours)
+ * [typography](demo/_includes/2-typography/index.html),
+ * [events](demo/_includes/3-event/),
+ * [detection](demo/_includes/4-detect/),
 
 ## Contribution
 
