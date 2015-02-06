@@ -200,7 +200,7 @@ skyComponents['version'] = version;
 skyComponents['event'] = event;
 skyComponents['detect'] = detect;
 },{"./api/detect":1,"./api/event":2,"./utils/version":6}],4:[function(require,module,exports){
-var local; local['core'] = require('./core');
+var local = {}; local['core'] = require('./core');
 
 if (typeof window.define === "function" && window.define.amd) {
     define('bower_components/bskyb-core/dist/js/core.requirejs', [], function() {
@@ -316,5 +316,5 @@ module.exports = {
     removeEventListener: removeEventListener
 };
 },{}],6:[function(require,module,exports){
-module.exports = "0.0.0";
+module.exports = "0.0.1";
 },{}]},{},[4]);
