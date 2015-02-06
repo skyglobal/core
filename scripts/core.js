@@ -195,6 +195,12 @@ var version  = require('./utils/version');
 var event  = require('./api/event');
 var detect  = require('./api/detect');
 
+module.exports = {
+    version: version,
+    event: event,
+    detect: detect
+}
+
 if (typeof skyComponents === "undefined") window.skyComponents = {};
 skyComponents['version'] = version;
 skyComponents['event'] = event;
@@ -307,5 +313,5 @@ module.exports = {
     removeEventListener: removeEventListener
 };
 },{}],5:[function(require,module,exports){
-module.exports = "0.0.1";
+module.exports = "0.0.2";
 },{}]},{},[3]);
