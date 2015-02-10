@@ -9,8 +9,8 @@
 Include the core assets in your project either as **Static Resources**
 
 ```html
-<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/core/0.0.3/styles/core.css" />
-<script type="text/javascript" src="http://web-toolkit.global.sky.com/components/core/0.0.3/scripts/core.min.js"></script>
+<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/core/0.0.4/styles/core.css" />
+<script type="text/javascript" src="http://web-toolkit.global.sky.com/components/core/0.0.4/scripts/core.min.js"></script>
 ```
 
 or alternatively, **Via Bower**
