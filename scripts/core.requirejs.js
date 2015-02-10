@@ -209,7 +209,7 @@ skyComponents['detect'] = detect;
 var local = {}; local['core'] = require('./core');
 
 if (typeof window.define === "function" && window.define.amd) {
-    define('bower_components/bskyb-core/dist/js/core.requirejs', [], function() {
+    define('bower_components/bskyb-core/dist/scripts/core.requirejs', [], function() {
         'use strict';
         return local['core'];
     });
@@ -322,5 +322,5 @@ module.exports = {
     removeEventListener: removeEventListener
 };
 },{}],6:[function(require,module,exports){
-module.exports = "0.0.2";
+module.exports = "0.0.3";
 },{}]},{},[4]);

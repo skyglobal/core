@@ -313,5 +313,5 @@ module.exports = {
     removeEventListener: removeEventListener
 };
 },{}],5:[function(require,module,exports){
-module.exports = "0.0.2";
+module.exports = "0.0.3";
 },{}]},{},[3]);
